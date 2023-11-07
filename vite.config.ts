@@ -16,10 +16,10 @@ export default defineConfig(() => ({
   build: {
     lib: {
       entry: resolve("src", "index.ts"),
-      name: "react-component-library",
+      name: "bex-ui",
       formats: ["es", "cjs"],
       fileName: (format) =>
-        `react-component-library.${
+        `bex-ui.${
           format === "cjs" ? "cjs" : "es.js"
         }`,
     },
